@@ -6,17 +6,18 @@
 
 /* banner styles */
 .banner-container {
-    height: 700px;
+    height: 600px;
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
-img {
-    height: 650px;
+.banner-container img {
+    height: 600px;
     width: 485px;
-    margin-right: 80px;
+    margin-top: 50px 80px 50px 0;
 }
 
 .banner {
@@ -128,11 +129,13 @@ img {
     align-items: center;
     justify-content: center;
     margin: 0 100px 0 100px;
+    margin-bottom: 100px;
 
 }
-.get-deal{
+
+.get-deal {
     text-align: center;
-    
+
 }
 
 .get-deal-title {
@@ -148,17 +151,16 @@ img {
     font-weight: 400;
     margin-bottom: 40px;
 }
-.get-deal ,input[type="email"]{
-    
-}
-input[type="email"]{
+
+input[type="email"] {
     width: 500px;
     padding: 15px;
     margin-right: 10px;
     border: none;
     border-radius: 8px;
 }
-input[type="submit"]{
+
+.btn-subs{
     width: 150px;
     padding: 15px;
     background-color: #E55473;
@@ -166,4 +168,40 @@ input[type="submit"]{
     font-weight: bold;
     border: none;
     border-radius: 8px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #141414;
+    height: 400px;
+    text-align: center;
+}
+
+.footer-title {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+span {
+    color: #E55473;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.footer-cc {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+  
 }
