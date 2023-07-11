@@ -1,41 +1,79 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
-.banner-container{
+
+/* banner styles */
+.banner-container {
     height: 700px;
-    background:rgba(229, 84, 115, 0.10);
+    background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-img{
-    height:650px;
+img {
+    height: 650px;
     width: 485px;
     margin-right: 80px;
 }
-.banner{
+
+.banner {
     margin-left: 100px;
 }
-.banner-title{
+
+.banner-title {
     color: #272727;
     font-size: 60px;
     font-weight: 800;
     margin-bottom: 32px;
 }
-.banner-description{
+
+.banner-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 32px;
 }
-.btn{
+
+.btn {
     color: white;
     font-size: 20px;
     border-radius: 8px;
     background: #E55473;
     padding: 20px 40px;
     border: none;
+}
+
+/* Hot sale styles */
+.hot-sale-container {
+    background: rgba(229, 84, 115, 0.10);
+    height: 620px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hot-sale-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.hot-sale-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.hot-sale-container img{
+    height: 400px;
+    width: 300px;
+}
+.hot-sale{
+    text-align: center;
+    margin-left: 150px;
 }
