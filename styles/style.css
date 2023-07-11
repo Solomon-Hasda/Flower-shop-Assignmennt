@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 
 .banner-container img {
@@ -45,6 +45,86 @@
     background: #E55473;
     padding: 20px 40px;
     border: none;
+}
+
+/*Features Card Styles */
+.feature-title {
+    color: #272727;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.features {
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.card1 {
+    height: 350px;
+    width: 300px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-right: 24px;
+    text-align: center;
+}
+
+.card2 {
+    height: 350px;
+    width: 300px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-right: 24px;
+    text-align: center;
+}
+
+.card3 {
+    height: 350px;
+    width: 300px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    text-align: center;
+
+}
+
+.cards img {
+    height: 300px;
+    width: 200px;
+    margin: 50px 50px 0 50px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.links a {
+    color: #272727;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration-line: underline;
 }
 
 /* Hot sale styles */
@@ -160,7 +240,7 @@ input[type="email"] {
     border-radius: 8px;
 }
 
-.btn-subs{
+.btn-subs {
     width: 150px;
     padding: 15px;
     background-color: #E55473;
@@ -203,5 +283,5 @@ span {
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
     font-weight: 400;
-  
+
 }
