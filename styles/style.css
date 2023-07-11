@@ -232,12 +232,13 @@
     margin-bottom: 40px;
 }
 
-input[type="email"] {
+.deal-form input[type="email"] {
     width: 500px;
     padding: 15px;
-    margin-right: 10px;
     border: none;
+    margin-right: 10px;
     border-radius: 8px;
+    margin-bottom: 40px;
 }
 
 .btn-subs {
@@ -249,9 +250,38 @@ input[type="email"] {
     border: none;
     border-radius: 8px;
 }
+/* contact section styles */
+.contact{
+    background: rgba(229, 84, 115, 0.10);
+    height: 60vh;
+    text-align: center;
+    width: 1050px;
+    border:2px solid #141414;
+    margin: 0 100px 0 100px;
+    margin-bottom: 100px;
+}
+.contact-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+form input{
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    color: #31303086;
+    margin-bottom: 20px;
+}
+label{
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 30px;
+}
 
+ 
 /* footer */
-
 footer {
     display: flex;
     justify-content: center;
